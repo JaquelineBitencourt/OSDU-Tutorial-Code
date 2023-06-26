@@ -1,0 +1,40 @@
+[
+	{
+		"id": "osdu:master-data--Organisation:Operator01",
+		"kind": "osdu:wks:master-data--Organisation:1.1.0",
+		"acl": {
+			"owners": [
+				"{{ _.New_OwnerDataGroup }}@{{ _.domain }}"
+			],
+			"viewers": [
+				"{{ _.New_ViewerDataGroup }}@{{ _.domain }}"
+			]
+		},
+		"legal": {
+			"legaltags": [
+				"{{ _.tagName }}"
+			],
+			"otherRelevantDataCountries": [
+				"NO"
+			],
+			"status": "compliant"
+		},
+		"data": {
+			"ResourceHomeRegionID": "osdu:reference-data--OSDURegion:AWSEastNO:",
+			"ResourceHostRegionIDs": [
+				"osdu:reference-data--OSDURegion:AWSEastNO:"
+			],
+			"ResourceCurationStatus": "osdu:reference-data--ResourceCurationStatus:CREATED:",
+			"ResourceLifecycleStatus": "osdu:reference-data--ResourceLifecycleStatus:LOADING:",
+			"ResourceSecurityClassification": "osdu:reference-data--ResourceSecurityClassification:RESTRICTED:",
+			"ExistenceKind": "osdu:reference-data--ExistenceKind:Active:",
+			"TechnicalAssuranceTypeID": "osdu:reference-data--TechnicalAssuranceType:Certified:",
+			"OrganisationName": "Operator 01",
+			"InternalOrganisationIndicator": true,
+			"OrganisationPurposeDescription": "Engeering services for production of oil and gas.",
+			"OrganisationDescription": "Service providers are companies that do not have oil and gas platforms. Operator01 provides engineering services for platforms.",
+			"OrganisationTypeID": "osdu:reference-data--OrganisationType:EngeeringServices:",
+			"ExtensionProperties": {}
+		}
+	}
+]

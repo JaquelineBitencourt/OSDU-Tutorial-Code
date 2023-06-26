@@ -1,0 +1,40 @@
+[
+	{
+		"id": "osdu:master-data--Field:VolveField",
+		"kind": "osdu:wks:master-data--Field:1.0.0",		
+		"acl": {
+			"owners": [
+				"{{ _.New_OwnerDataGroup }}@{{ _.domain }}"
+			],
+			"viewers": [
+				"{{ _.New_ViewerDataGroup }}@{{ _.domain }}"
+			]
+		},
+		"legal": {
+			"legaltags": [
+				"{{ _.tagName }}"
+			],
+			"otherRelevantDataCountries": [
+				"NO"
+			],
+			"status": "compliant"
+		},
+		"meta": [],
+		"data": {
+			"Source": "Equinor",
+			"ExistenceKind": "osdu:reference-data--ExistenceKind:Active:",
+			"GeoContexts": [
+				{
+					"GeoPoliticalEntityID": "NO",
+					"GeoPoliticalEntityTypeID": "osdu:reference-data--GeoPoliticalEntityType:Region:"
+				}
+			],
+			"TechnicalAssuranceTypeID": "osdu:reference-data--TechnicalAssuranceType:Certified:",
+			"FieldName": "North Sea oil field",
+			"FieldDescription": "Equinor has offically made a complete set of data from a North Sea oil field available for research, study and development purposes.",
+			"EffectiveDate": "2020-02-13T09:13:15.55Z",
+			"TerminationDate": "2020-02-13T09:13:15.55Z",
+			"ExtensionProperties": {}
+		}
+	}
+]

@@ -1,0 +1,57 @@
+[
+	{
+		"id": "osdu:work-product-component--TimeSeries:WellheadPressureWell888",
+		"kind": "osdu:wks:work-product-component--TimeSeries:1.1.0",
+		"acl": {
+			"owners": [
+				"{{ _.New_OwnerDataGroup }}@{{ _.domain }}"
+			],
+			"viewers": [
+				"{{ _.New_ViewerDataGroup }}@{{ _.domain }}"
+			]
+		},
+		"legal": {
+			"legaltags": [
+				"{{ _.tagName }}"
+			],
+			"otherRelevantDataCountries": [
+				"NO"
+			],
+			"status": "compliant"
+		},
+		"meta": [],
+		"data": {
+			"Source": "XX System. Equinor - Volve",
+			"Datasets": [
+				"osdu:dataset--File.Generic:WellheadTemperatureWell888File:"
+			],
+			"IsExtendedLoad": true,
+			"IsDiscoverable": true,
+			"TechnicalAssurances": [
+				{
+					"TechnicalAssuranceTypeID": "osdu:reference-data--TechnicalAssuranceType:Trusted:",
+					"Reviewers": [
+						{
+							"RoleTypeID": "osdu:reference-data--ContactRoleType:ProjectManager:",
+							"OrganisationID": "osdu:master-data--Organisation:Operator01:",
+							"Name": "Employ 001"
+						}
+					],
+					"EffectiveDate": "2023-06-22"
+				}
+			],
+			"Name": "Wellhead_Temperature_Well888.csv",
+			"Description": "A CSV file that contains wellhead temeperature data of the well 888. An extended well test generated these data.",
+			"WellboreID": "osdu:master-data--Wellbore:Wellbore1234:",
+			"WellID": "osdu:master-data--Well:Well888:",
+			"ExtensionProperties": {
+				"Sensor": "Temperature sensor",
+				"SensorID": "ABC-ABC",
+				"Type": "Welhead temperature",
+				"UnitOfMeasure": "kgf/cm²",
+				"OriginFile": "1254236_zz"
+			},
+			"SchemaFormatTypeID": "osdu:reference-data--SchemaFormatType:TabSeparatedColumnarText:"
+		}
+	}
+]
