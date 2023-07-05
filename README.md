@@ -1,2 +1,2 @@
 # OSDU-Tutorial-Code
-This repository contains all the code necessary to follow the step-by-step OSDU tutorial. 
+All the code required to follow the OSDU tutorial step-by-step is included in this repository. This repository also offers the latest version of the tutorial. 
